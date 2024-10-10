@@ -1,0 +1,296 @@
+*{
+  box-sizing: border-box;
+  margin: auto;
+
+}
+
+@font-face {
+    font-family: 'TITULOS';
+    src: url(/fonts/Gochi_Hand/GochiHand-Regular.ttf);
+    
+}
+@font-face {
+    font-family: 'subtitulos';
+    src: url(/fonts/Poppins/Poppins-Bold.ttf);
+    
+}
+
+@font-face {
+    font-family:'texto';
+    src: url(/fonts/Afacad_Flux/static/AfacadFlux-Bold.ttf);
+}
+
+@font-face {
+    font-family:"bitacora" ;
+    src: url(/fonts/Oswald/static/Oswald-Bold.ttf);
+}
+
+img{
+    width: 600px;
+    height: 350px;
+
+}
+nav{
+    background: rgba(0, 0, 255, 0);
+    width: 100%;
+    z-index: 999;
+    height: 65px;
+    line-height: 65px;
+    position: fixed;
+    
+}
+.tam{
+    width: 1366px;
+    font-family: 'bitacora';
+    font-weight: 20;
+    
+}
+
+body{
+    width: 1366px;
+    height: 1800px;
+}
+
+main{
+    width: 1366px;
+    height: auto;
+    
+    
+}
+
+
+.titulos{
+    text-align: center;
+    font-family: 'TITULOS';
+    font-weight: 400px;
+    font-size: 45px;
+  
+}
+ .logos{
+    font-family: 'bitacora';
+    font-weight: 400;
+ }
+.idea{
+    font-family: subtitulos;
+
+}
+.xx{
+    background-color: #9fa0ad66;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.xx h1{
+    position: relative;
+    top: -10px;
+}
+
+.xx1{
+    background-color: #9fa0ad66;
+    height: 70px;
+    border-radius: 10px;
+}
+
+
+.cuadros{
+    width: 1366px;
+    height: 1100px;
+    background-color: #e0dddd61;
+    display: flex;
+    border-radius: 10px;
+}
+
+.cuadro_izq{
+    width: 550px;
+    height: 1100px;
+    background-color: #9fa0ad;
+    position: relative;
+    border-radius: 5px;
+    
+    
+}
+
+.cuadro_izq h2{
+    text-align: center;
+    position: relative;
+    
+}
+
+.texto-1{
+    height: 950px;
+    width: 500px;
+    background-color: #dedee3;
+    padding-left: 10px;
+    font-size: 22px;
+    left: 25px;
+    border-radius: 1%;
+    position: absolute;
+    font-family: 'texto';
+    
+}
+
+
+.cuadro_der{
+    width: 700px;
+    height: 1100px;
+    background-color: #9fa0ad;
+    position: relative;
+    right: 0;
+    text-align: center;
+    
+}
+
+.texto-2{
+    height: 550px;
+    width: 600px;
+    background-color: #dedee3;
+    left: 50px;
+    font-size: 24px;
+    text-align: justify;
+    padding: 5px 5px;
+    bottom: 0;
+    border-radius: 1%;
+    font-family: 'texto';
+}
+
+
+nav .navegacion{
+    position: relative;
+    background:#484b62;
+    max-width: 1366px;
+    padding: 0 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    border: #fff;
+}
+
+.navegacion .logos a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 700px;
+    
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+
+.nav-links li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 55px;
+    background: #484b62;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.navegacion .nav-links{
+    display: inline-flex;
+}
+ 
+.nav-links li a:hover{
+    background-color: #9fa0ad;
+
+}
+
+.menu-grande{
+    position: absolute;
+    top: 95px;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.menu-grande .contenido{
+    background: #484b62;
+    padding: 25px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    left: 0;
+    
+}
+
+.contenido .row{
+    width: calc(25%-30px);
+    line-height: 45px;
+    
+}
+
+.contenido .row img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenido .row header{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 500;
+   
+    
+}
+
+.contenido header{
+    position: absolute;
+    top: 10px;
+
+}
+
+.contenido .row .mega-links{
+    border-left: 1px solid #9fa0ad;
+}
+.contenido .row:nth-child(1),.contenido .row:nth-child(2){
+    border-left: 0px;
+}
+
+.row .mega-links li{
+ padding: 0 20px;
+}
+
+.row .mega-links li a{
+    padding: 0 20px;
+    color :#ffffff;
+    font-size: 21px;
+    display: block;
+}
+
+.nav-links li:hover .menu-grande{
+    top: 65px;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease;
+}
+
+.cuadro3{
+    background: #dedee3;
+    width: 1250px;
+    height: 200px;
+    font-size: 21px;
+    padding: 3px 3px;
+    text-align: justify;
+    
+}
+
+.subtitulo{
+    text-align: center;
+    color: #000000;
+    
+}
+
+.notas{
+    background-color: #484b62;
+    width: 1366px;
+    height: 320px;
+    display: flex;
+
+}
