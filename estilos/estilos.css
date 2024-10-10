@@ -4,27 +4,6 @@
 
 }
 
-@font-face {
-    font-family: 'TITULOS';
-    src: url(fonts/Gochi_Hand/GochiHand-Regular.ttf);
-    
-}
-@font-face {
-    font-family: 'subtitulos';
-    src: url(fonts/Poppins/Poppins-Bold.ttf);
-    
-}
-
-@font-face {
-    font-family:'texto';
-    src: url(fonts/Afacad_Flux/static/AfacadFlux-Bold.ttf);
-}
-
-@font-face {
-    font-family:'bitacora' ;
-    src: url(fonts/Oswald/static/Oswald-Bold.ttf);
-}
-
 img{
     width: 600px;
     height: 350px;
@@ -40,10 +19,12 @@ nav{
     
 }
 .tam{
-    width: 1366px;
-    font-family: 'bitacora';
-    font-weight: 20;
-    
+  width: 1366px;
+  font-family: "Edu AU VIC WA NT Dots", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+   
 }
 
 body{
@@ -59,19 +40,27 @@ main{
 }
 
 
+
 .titulos{
     text-align: center;
-    font-family: 'TITULOS';
-    font-weight: 400px;
+    font-family: "Indie Flower", cursive;
     font-size: 45px;
+    font-weight: 550;
+    font-style: normal;
   
 }
  .logos{
     font-family: 'bitacora';
     font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    
  }
 .idea{
     font-family: subtitulos;
+    font-family: "Englebert", cursive;
+  font-weight: 400;
+  font-style: normal;
 
 }
 .xx{
@@ -121,11 +110,15 @@ main{
     width: 500px;
     background-color: #dedee3;
     padding-left: 10px;
-    font-size: 22px;
+    font-size: 23px;
     left: 25px;
     border-radius: 1%;
     position: absolute;
-    font-family: 'texto';
+    font-family: "Englebert", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+      
     
 }
 
@@ -150,7 +143,12 @@ main{
     padding: 5px 5px;
     bottom: 0;
     border-radius: 1%;
-    font-family: 'texto';
+    
+   font-family: "Englebert", cursive;
+   font-weight: 400;
+   font-style: normal;
+
+      
 }
 
 
@@ -284,13 +282,20 @@ nav .navegacion{
 .subtitulo{
     text-align: center;
     color: #000000;
+    font-family: "Englebert", cursive;
+  font-weight: 400;
+  font-style: normal;
     
 }
+
 
 .notas{
     background-color: #484b62;
     width: 1366px;
     height: 320px;
     display: flex;
+    font-family: "Englebert", cursive;
+  font-weight: 400;
+  font-style: normal;
 
 }
