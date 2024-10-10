@@ -6,23 +6,23 @@
 
 @font-face {
     font-family: 'TITULOS';
-    src: url(/fonts/Gochi_Hand/GochiHand-Regular.ttf);
+    src: url(fonts/Gochi_Hand/GochiHand-Regular.ttf);
     
 }
 @font-face {
     font-family: 'subtitulos';
-    src: url(/fonts/Poppins/Poppins-Bold.ttf);
+    src: url(fonts/Poppins/Poppins-Bold.ttf);
     
 }
 
 @font-face {
     font-family:'texto';
-    src: url(/fonts/Afacad_Flux/static/AfacadFlux-Bold.ttf);
+    src: url(fonts/Afacad_Flux/static/AfacadFlux-Bold.ttf);
 }
 
 @font-face {
-    font-family:"bitacora" ;
-    src: url(/fonts/Oswald/static/Oswald-Bold.ttf);
+    font-family:'bitacora' ;
+    src: url(fonts/Oswald/static/Oswald-Bold.ttf);
 }
 
 img{
