@@ -1,12 +1,77 @@
 *{
   box-sizing: border-box;
   margin: auto;
+  scroll-behavior: smoot;
+  
 
 }
 
+/* Animaciones */
+.logos{
+    animation: arriba;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+    &:hover{
+        animation-play-state: paused;
+        opacity: .7;
+        filter: contrast(150%)
+    }
+}
+.titulos{
+    animation: arriba;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+    &:hover{
+        animation-play-state: paused;
+        opacity: .7;
+        filter: contrast(150%)
+    }
+}
+
+@keyframes arriba{
+    from{
+        transform: translateY(0px);
+
+    }
+
+    to{
+        transform: translateY(6px);
+    }
+
+   
+}
+.navegacion{
+    animation: barra linear both;
+    animation-timeline: scroll(root block);
+    animation-range: 0px 200px;
+}
+
+@keyframes barra{
+    from{
+        width: 1366px;
+
+    }
+
+    to {
+        width: 1100px;
+        backdrop-filter: blur (5px);
+        font-size: 10px;
+        color: #000000;
+    }
+
+}
+
+/* Estilos */
 img{
-    width: 600px;
-    height: 350px;
+    width: 565px;
+    height: 320px;
+    
 
 }
 nav{
@@ -17,7 +82,18 @@ nav{
     line-height: 65px;
     position: fixed;
     
+    
 }
+
+a{
+    cursor: url(/imagenes/cursorv.png), auto;
+}
+
+nav .navegacion:hover{  
+    box-shadow: #000000 8px 8px 20px 3px;
+    transition: 1s;
+}
+
 .tam{
   width: 1366px;
   font-family: "Edu AU VIC WA NT Dots", cursive;
@@ -27,9 +103,16 @@ nav{
    
 }
 
+html{
+    cursor: url(/imagenes/cursor2.png), auto;
+
+}
+
 body{
     width: 1366px;
     height: 1800px;
+   
+    
 }
 
 main{
@@ -40,33 +123,41 @@ main{
 }
 
 
-
 .titulos{
     text-align: center;
     font-family: "Indie Flower", cursive;
     font-size: 45px;
     font-weight: 550;
     font-style: normal;
+    text-shadow: #0a2250 5px 5px 7px;
   
 }
- .logos{
+
+
+.logos{
     font-family: 'bitacora';
     font-weight: 400;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     
- }
+}
+
 .idea{
     font-family: subtitulos;
     font-family: "Englebert", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: #000000 1px 1px 10px inset ;  
+    
 
 }
+
+
 .xx{
     background-color: #9fa0ad66;
-    height: 70px;
+    height: 75px;
     border-radius: 10px;
+    box-shadow: #000000 -5px 8px 20px 5px ;
 }
 
 .xx h1{
@@ -95,8 +186,14 @@ main{
     background-color: #9fa0ad;
     position: relative;
     border-radius: 5px;
+    cursor: url(/imagenes/cursorv.png), auto;
+}
+
+.cuadro_izq:hover{
+    box-shadow: #000000 -10px 10px 10px ;
+    transition: 0.7s;
     
-    
+
 }
 
 .cuadro_izq h2{
@@ -117,8 +214,7 @@ main{
     font-family: "Englebert", cursive;
     font-weight: 400;
     font-style: normal;
-
-      
+    box-shadow: #000000 1px 1px 10px inset ;  
     
 }
 
@@ -130,8 +226,16 @@ main{
     position: relative;
     right: 0;
     text-align: center;
-    
+    cursor: url(/imagenes/cursorv.png), auto;
 }
+
+.cuadro_der:hover{
+    box-shadow: #000000 -10px 10px 10px ;
+    transition: 0.7s;
+
+}
+
+
 
 .texto-2{
     height: 550px;
@@ -143,15 +247,61 @@ main{
     padding: 5px 5px;
     bottom: 0;
     border-radius: 1%;
-    
+    box-shadow: #000000 1px 1px 10px inset ;  
    font-family: "Englebert", cursive;
    font-weight: 400;
    font-style: normal;
 
       
 }
+.cuadro3{
+    background: #dedee3;
+    width: 1250px;
+    height: 200px;
+    font-size: 20px;
+    padding: 3px 3px;
+    text-align: justify;
+    
+}
+
+.subtitulo{
+    text-align: center;
+    color: #000000;
+    font-family: "Englebert", cursive;
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: #000000 1px 1px 10px inset ;  
+
+    
+}
 
 
+.notas{
+    background-color: #484b62;
+    width: 1366px;
+    height: 320px;
+    display: flex;
+    font-family: "Englebert", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.caja{
+    box-shadow: #000000 1px 1px 10px inset ;  
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    left: 50px;
+}
+
+.im{
+   position: absolute;
+   right: 16px;
+   top: 15px;
+}
+
+/* Barra de navegacion */
 nav .navegacion{
     position: relative;
     background:#484b62;
@@ -161,7 +311,7 @@ nav .navegacion{
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+    cursor: url(/imagenes/cursorv.png), auto;
     border: #fff;
 }
 
@@ -268,34 +418,11 @@ nav .navegacion{
     visibility: visible;
     transition: all 0.3s ease;
 }
+/* Unidad 2 */
 
-.cuadro3{
-    background: #dedee3;
-    width: 1250px;
-    height: 200px;
-    font-size: 21px;
-    padding: 3px 3px;
-    text-align: justify;
-    
-}
-
-.subtitulo{
-    text-align: center;
-    color: #000000;
-    font-family: "Englebert", cursive;
-  font-weight: 400;
-  font-style: normal;
-    
-}
-
-
-.notas{
-    background-color: #484b62;
+.division{
+    height: 70px;
     width: 1366px;
-    height: 320px;
-    display: flex;
-    font-family: "Englebert", cursive;
-  font-weight: 400;
-  font-style: normal;
+    background-color: #0a2250;
 
 }
