@@ -1,7 +1,8 @@
 *{
   box-sizing: border-box;
   margin: auto;
-  scroll-behavior: smoot;
+  scroll-behavior: smooth;
+  cursor: url(/imagenes/cursorv.png), auto;
   
 
 }
