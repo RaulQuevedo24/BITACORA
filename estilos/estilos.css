@@ -104,21 +104,23 @@ nav .navegacion:hover{
 }
 
 html{
-    cursor: url(/imagenes/cursor2.png), auto;
+    cursor: url(/imagenes/cursor2.png), default;
 
 }
 
 body{
     width: 1366px;
     height: 1800px;
-   
+    cursor: url(/imagenes/cursor2.png), auto;
+
     
 }
 
 main{
     width: 1366px;
     height: auto;
-    
+    cursor: url(/imagenes/cursor2.png), auto;
+
     
 }
 
