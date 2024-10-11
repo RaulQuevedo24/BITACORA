@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: auto;
   scroll-behavior: smooth;
-  cursor: url(/imagenes/cursorv.png), auto;
+  cursor: url(/imagenes/rojo.png), auto;
   
 
 }
@@ -87,7 +87,7 @@ nav{
 }
 
 a{
-    cursor: url(/imagenes/cursorv.png), auto;
+    cursor: url(/imagenes/verde.png), auto;
 }
 
 nav .navegacion:hover{  
@@ -105,14 +105,14 @@ nav .navegacion:hover{
 }
 
 html{
-    cursor: url(/imagenes/cursor2.png), default;
+    cursor: url(/imagenes/rojo.png), default;
 
 }
 
 body{
     width: 1366px;
     height: 1800px;
-    cursor: url(/imagenes/cursor2.png), auto;
+    cursor: url(/imagenes/rojo.png), auto;
 
     
 }
@@ -120,7 +120,7 @@ body{
 main{
     width: 1366px;
     height: auto;
-    cursor: url(/imagenes/cursor2.png), auto;
+    cursor: url(/imagenes/rojo.png), auto;
 
     
 }
@@ -189,7 +189,7 @@ main{
     background-color: #9fa0ad;
     position: relative;
     border-radius: 5px;
-    cursor: url(/imagenes/cursorv.png), auto;
+    cursor: url(/imagenes/verde.png), auto;
 }
 
 .cuadro_izq:hover{
@@ -229,7 +229,7 @@ main{
     position: relative;
     right: 0;
     text-align: center;
-    cursor: url(/imagenes/cursorv.png), auto;
+    cursor: url(/imagenes/verde.png), auto;
 }
 
 .cuadro_der:hover{
@@ -314,7 +314,7 @@ nav .navegacion{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    cursor: url(/imagenes/cursorv.png), auto;
+    cursor: url(/imagenes/verde.png) auto;
     border: #fff;
 }
 
