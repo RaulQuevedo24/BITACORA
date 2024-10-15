@@ -1,9 +1,6 @@
 *{
   box-sizing: border-box;
   margin: auto;
-  scroll-behavior: smooth;
-  cursor: url(/imagenes/rojo.png), auto;
-  
 
 }
 
@@ -106,6 +103,7 @@ nav .navegacion:hover{
 
 html{
     cursor: url(/imagenes/rojo.png), default;
+  scroll-behavior: smooth;
 
 }
 
@@ -150,7 +148,7 @@ main{
     font-family: "Englebert", cursive;
     font-weight: 400;
     font-style: normal;
-    box-shadow: #000000 1px 1px 10px inset ;  
+   
     
 
 }
@@ -240,23 +238,23 @@ main{
 
 
 
-.texto-2{
+
+
+.texto-2 p{
     height: 550px;
     width: 600px;
     background-color: #dedee3;
-    left: 50px;
     font-size: 24px;
     text-align: justify;
     padding: 5px 5px;
-    bottom: 0;
     border-radius: 1%;
     box-shadow: #000000 1px 1px 10px inset ;  
    font-family: "Englebert", cursive;
    font-weight: 400;
    font-style: normal;
 
-      
 }
+
 .cuadro3{
     background: #dedee3;
     width: 1250px;
@@ -268,12 +266,12 @@ main{
 }
 
 .subtitulo{
-    text-align: center;
-    color: #000000;
-    font-family: "Englebert", cursive;
-  font-weight: 400;
-  font-style: normal;
-  box-shadow: #000000 1px 1px 10px inset ;  
+text-align: center;
+color: #000000;
+font-family: "Englebert", cursive;
+font-weight: 400;
+font-style: normal;
+box-shadow: #000000 1px 1px 10px inset ;  
 
     
 }
