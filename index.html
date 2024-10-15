@@ -1129,7 +1129,11 @@
             </div>
             <br />
             <div class="caja">
-              <img class="im" src="imagenes/CSS-Animation-Fill-mode.webp" alt="" />
+              <img
+                class="im"
+                src="imagenes/CSS-Animation-Fill-mode.webp"
+                alt=""
+              />
             </div>
           </div>
         </section>
@@ -1160,46 +1164,36 @@
             <br />
             <div class="texto-1">
               <ul>
-                <li>
-                  CSS (Cascading Style Sheets) es un lenguaje que define la
-                  apariencia de un documento escrito.
-                </li>
                 <br />
                 <li>
-                  Sirve para agregar estilo o diseño por ejemplo, fuentes,
-                  colores, espaciado a documentos web.
+                  Atributos ID, sirve para asignar un nombre en especificoa una
+                  tributo, como un indenticador
                 </li>
                 <br />
-                <li>
-                  Hay tres tres formas de poner estilos en CSS en el HTML:
-                  Incrustada, En linea y Externa.
-                </li>
                 <br />
                 <li>
-                  Hoja incrustada: esta hoja se puede incorporar dentro del
-                  index en la etiqueta headear y se incorpora con la etiqueta <
-                  stylé>
+                  Pseudoclases, existe varias, :nth child(), nos permite buscar
+                  un hijo en especifico, :nth child(odd) y :nth child(even) e
+                  utilizan para seleccionar elementos con base en su posición en
+                  la secuencia de hijos, especficamente para alternar entre
+                  elementos impares y pares:, :nth first child, selecciona solo
+                  al primer hijo, :nth first child selecciona el ultimo hijo,
+                  :nth only child, afecta a un solo elemento simpre y cuando sea
+                  el ultimo y :nth not child esta hace una excepcion.
                 </li>
                 <br />
-                <li>
-                  Hoja en linea: Puede usarse estilos en línea mediante el
-                  atributo style. • El atributo style puede ser aplicado a
-                  cualquier elemento HTML (incluyendo en < body>).
-                </li>
                 <br />
                 <li>
-                  Hoja externa: Una hoja de estilo externa puede ser enlazada a
-                  un documento HTML mediante el elemento < link> de HTML
-                </li>
-                <br />
-                <li>
-                  El codigo CSS se compone de reglas con un selector "#nombre",
-                  propiedad "font-family" y un valor :arial;
-                </li>
-                <br />
-                <li>
-                  Se usan {} y se utilizan : para cerrar la propiedad y ; para
-                  el valor
+                  Los selectores de atributos funcionan en funcion del valor de
+                  uno de sus atributos, por ejemplo, selector de atributo (^=)
+                  selecciona elementos cuyo atributo comienza en un valor
+                  especifico, ($=) selecciona un atributo que termina en un
+                  valor especifico, (*=) selecciona aquellos que tiene una
+                  cadena especifica en cualquier posicion, selector de hijos
+                  directos (>) selecciona a los hijos inmediatos de un padre,
+                  (+) selector de relacion este elemento selecciona al que es su
+                  hermano inmediato, selector hermanos generales (~) selecciona
+                  a los hermanos anterior.
                 </li>
               </ul>
             </div>
@@ -1210,19 +1204,27 @@
             <br />
             <div class="texto-2">
               <p>
-                El CSS es una hoja de estilos que se usa para darle apariencia a
-                nuestro sitio web mediante 3 formas diferentes
-                hojas:incrustadas, en linea y externas, cada una con su
-                respectivas ventajas, siendo la mejor opcion la hoja de estilo
-                externa, esta hoja debe ser linkeada en el header del documento
-                html, esta se debe guardar en un folder, con nombre estilos
-                dentro de la carpeta donde va el index, usando la etiqueta:
-                #selector{ propiedad: valor;} dentro de la hoja de css.
+                Los selectores CSS son herramientas poderosas que nos permiten
+                seleccionar elementos HTML específicos para aplicarles estilos.
+                Algunos de los tipos de selectores más comunes son: ID: Asigna
+                un nombre único a un elemento, permitiendo seleccionarlo de
+                forma precisa. Pseudoclases: Permiten seleccionar elementos
+                basados en su estado o posición en el documento: :nth-child():
+                Selecciona elementos según su posición entre los hijos de su
+                padre. :first-child, :last-child, :only-child: Seleccionan el
+                primer, último o único hijo, respectivamente. :not(): Excluye
+                elementos que cumplen ciertas condiciones. Selectores de
+                atributos: Seleccionan elementos basados en el valor de sus
+                atributos: ^=, $=, *=: Seleccionan elementos cuyo atributo
+                comienza, termina o contiene un valor específico. Selectores de
+                relaciones: Definen relaciones entre elementos: >: Selecciona
+                hijos directos. +: Selecciona el siguiente hermano. ~:
+                Selecciona todos los hermanos siguientes.
               </p>
             </div>
             <br />
             <div class="caja">
-              <img class="im" src="imagenes/CSS-Logo.jpg" alt="" />
+              <img class="im" src="imagenes/25-css-selectors-cheat-sheet-part1.webp" alt="" />
             </div>
           </div>
         </section>
@@ -1232,11 +1234,15 @@
         <div class="cuadro3">
           <h2 class="subtitulo">RESUMEN</h2>
           <p>
-            SCSS (Cascading Style Sheets) es como el maquillaje y el vestuario
-            de una página web. Le da estilo y forma a los elementos que creamos
-            con HTML. Imagina que HTML es el esqueleto de una casa, y CSS es la
-            pintura, los muebles y la decoración que la hacen bonita y
-            acogedora.
+            ID: Señala un elemento único por su nombre. Por clase: Señala
+            elementos que comparten una misma clase. Por etiqueta: Señala todos
+            los elementos de un tipo específico (p.ej., todos los párrafos).
+            Pseudoclases: Seleccionan elementos basados en su estado (hover,
+            active) o posición (primero, último). Selectores de atributos:
+            Seleccionan elementos basados en sus atributos. Selectores de relaciones: Definen
+            relaciones entre elementos (padre, hijo, hermanos). Con estos
+            selectores, podemos crear estilos muy precisos y combinarlos para
+            lograr efectos visuales complejos.
           </p>
         </div>
       </div>
