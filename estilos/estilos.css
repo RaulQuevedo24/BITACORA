@@ -148,9 +148,9 @@ main{
 .idea{
     font-family: subtitulos;
     font-family: "Englebert", cursive;
-    font-weight: 400;
-    font-style: normal;
    
+    font-style: normal;
+   color: white;
     
 
 }
@@ -268,6 +268,8 @@ main{
     
 }
 
+
+
 .subtitulo{
 text-align: center;
 color: #000000;
@@ -291,6 +293,11 @@ box-shadow: #000000 1px 1px 10px inset ;
 
 }
 
+.notas:hover{
+    box-shadow: #000000 -10px 10px 10px ;
+    transition: 0.7s;
+}
+
 .caja{
     box-shadow: #000000 1px 1px 10px inset ;  
     width: 600px;
@@ -303,6 +310,11 @@ box-shadow: #000000 1px 1px 10px inset ;
    position: absolute;
    right: 16px;
    top: 15px;
+}
+
+#menu-img{
+    width: 350px;
+    height: 350px;
 }
 
 /* Barra de navegacion */
