@@ -28,7 +28,7 @@
     &:hover{
         animation-play-state: paused;
         opacity: .7;
-        filter: contrast(150%)
+        filter: contrast(100%)
     }
 }
 
@@ -47,7 +47,7 @@
 .navegacion{
     animation: barra linear both;
     animation-timeline: scroll(root block);
-    animation-range: 0px 200px;
+    animation-range: 0px 100px;
 }
 
 @keyframes barra{
@@ -82,6 +82,7 @@ nav{
     
     
 }
+
 
 a{
     cursor: url(/imagenes/verde.png), auto;
@@ -131,6 +132,7 @@ main{
     font-weight: 550;
     font-style: normal;
     text-shadow: #0a2250 5px 5px 7px;
+    
   
 }
 
@@ -155,10 +157,11 @@ main{
 
 
 .xx{
-    background-color: #9fa0ad66;
+    background-color: #e4dfcf;
     height: 75px;
     border-radius: 10px;
     box-shadow: #000000 -5px 8px 20px 5px ;
+    width: 750px;
 }
 
 .xx h1{
@@ -167,7 +170,7 @@ main{
 }
 
 .xx1{
-    background-color: #9fa0ad66;
+    background-color: #e4dfcf;
     height: 70px;
     border-radius: 10px;
 }
@@ -176,7 +179,7 @@ main{
 .cuadros{
     width: 1366px;
     height: 1100px;
-    background-color: #e0dddd61;
+    background-color: #faf8f0;
     display: flex;
     border-radius: 10px;
 }
@@ -184,7 +187,7 @@ main{
 .cuadro_izq{
     width: 550px;
     height: 1100px;
-    background-color: #9fa0ad;
+    background-color: #e44652;
     position: relative;
     border-radius: 5px;
     cursor: url(/imagenes/verde.png), auto;
@@ -206,7 +209,7 @@ main{
 .texto-1{
     height: 950px;
     width: 500px;
-    background-color: #dedee3;
+    background-color: #faf8f0;
     padding-left: 10px;
     font-size: 23px;
     left: 25px;
@@ -223,7 +226,7 @@ main{
 .cuadro_der{
     width: 700px;
     height: 1100px;
-    background-color: #9fa0ad;
+    background-color: #e44652;
     position: relative;
     right: 0;
     text-align: center;
@@ -243,7 +246,7 @@ main{
 .texto-2 p{
     height: 550px;
     width: 600px;
-    background-color: #dedee3;
+    background-color: #faf8f0;
     font-size: 24px;
     text-align: justify;
     padding: 5px 5px;
@@ -256,7 +259,7 @@ main{
 }
 
 .cuadro3{
-    background: #dedee3;
+    background: #faf8f0;
     width: 1250px;
     height: 200px;
     font-size: 20px;
@@ -278,7 +281,7 @@ box-shadow: #000000 1px 1px 10px inset ;
 
 
 .notas{
-    background-color: #484b62;
+    background-color: #e44652;
     width: 1366px;
     height: 320px;
     display: flex;
@@ -305,7 +308,7 @@ box-shadow: #000000 1px 1px 10px inset ;
 /* Barra de navegacion */
 nav .navegacion{
     position: relative;
-    background:#484b62;
+    background:#043353;
     max-width: 1366px;
     padding: 0 30px;
     margin: auto;
@@ -332,12 +335,12 @@ nav .navegacion{
 .nav-links li a{
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 200;
     padding: 20px 55px;
-    background: #484b62;
-    border-radius: 5px;
+    background: #043353;
     transition: all 0.3s ease;
+    
 }
 
 .navegacion .nav-links{
@@ -345,7 +348,7 @@ nav .navegacion{
 }
  
 .nav-links li a:hover{
-    background-color: #9fa0ad;
+    background-color: #faf8f0;
 
 }
 
@@ -360,7 +363,7 @@ nav .navegacion{
 }
 
 .menu-grande .contenido{
-    background: #484b62;
+    background: #043353;
     padding: 25px 20px;
     display: flex;
     width: 100%;
@@ -396,7 +399,7 @@ nav .navegacion{
 }
 
 .contenido .row .mega-links{
-    border-left: 1px solid #9fa0ad;
+    border-left: 1px solid #ffffff;
 }
 .contenido .row:nth-child(1),.contenido .row:nth-child(2){
     border-left: 0px;
@@ -424,6 +427,39 @@ nav .navegacion{
 .division{
     height: 70px;
     width: 1366px;
-    background-color: #0a2250;
+    border-bottom: 12px dashed #043353;
 
 }
+
+
+nav{
+    height: 70px;
+    width: 1300px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    border-radius: 15px;
+    font-family: "DynaPuff", system-ui;
+    
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(24, 1, 1) 6px 0 9px;
+    text-decoration: none;
+}
+.li{
+    list-style: none;
+    
+}
+ .li li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 55px;
+    background: #484b62;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+ }
+
